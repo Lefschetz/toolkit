@@ -1,0 +1,15 @@
+{
+  "name": "@toolkit/test",
+  "description": "test package",
+  "scripts": {
+    "test": "rc-jest"
+  },
+  "dependencies": {
+    "@toolkit/sum": "workspace:*",
+    "@toolkit/add": "workspace:*",
+    "@toolkit/cli": "workspace:*"
+  },
+  "devDependencies": {
+    "@jest/globals": "29.6.2"
+  }
+}

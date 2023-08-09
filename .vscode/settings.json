@@ -1,0 +1,13 @@
+{
+  "jestrunner.codeLens": ["run", "watch", "debug"],
+  "jestrunner.changeDirectoryToWorkspaceRoot": true,
+  "jestrunner.jestCommand": "pnpm test --",
+  "jestrunner.runOptions": ["--silent", "--colors"],
+  "jestrunner.debugOptions": {
+    "program": "",
+    "runtimeExecutable": "pnpm",
+    "runtimeArgs": ["run-script", "test"],
+    "smartStep": true,
+    "skipFiles": ["<node_internals>/**/*.js"]
+  }
+}

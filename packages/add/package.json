@@ -1,0 +1,9 @@
+{
+  "name": "@toolkit/add",
+  "description": "add package",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "@toolkit/sum": "workspace:*"
+  }
+}

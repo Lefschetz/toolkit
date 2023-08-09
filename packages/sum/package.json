@@ -1,0 +1,6 @@
+{
+  "name": "@toolkit/sum",
+  "description": "sum package",
+  "type": "module",
+  "main": "index.js"
+}
