@@ -1,6 +1,7 @@
 {
-    "$schema": "https://json.schemastore.org/swcrc",
-    "module": {
-        "type": "commonjs"
-    }
-  }
+  "$schema": "https://json.schemastore.org/swcrc",
+  "module": {
+    "type": "commonjs"
+  },
+  "sourceMaps": true
+}

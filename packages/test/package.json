@@ -2,14 +2,14 @@
   "name": "@toolkit/test",
   "description": "test package",
   "scripts": {
-    "test": "rc-jest"
+    "test": "tk-jest"
   },
   "dependencies": {
-    "@toolkit/sum": "workspace:*",
     "@toolkit/add": "workspace:*",
-    "@toolkit/cli": "workspace:*"
+    "@toolkit/sum": "workspace:*"
   },
   "devDependencies": {
-    "@jest/globals": "29.6.2"
+    "@toolkit/cli": "workspace:*",
+    "@types/jest": "29.5.4"
   }
 }

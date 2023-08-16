@@ -1,8 +1,8 @@
 {
-  "jestrunner.codeLens": ["run", "watch", "debug"],
+  "jestrunner.codeLens": ["run", "watch", "debug", "coverage"],
   "jestrunner.changeDirectoryToWorkspaceRoot": true,
   "jestrunner.jestCommand": "pnpm test --",
-  "jestrunner.runOptions": ["--silent", "--colors"],
+  "jestrunner.runOptions": ["--silent"],
   "jestrunner.debugOptions": {
     "program": "",
     "runtimeExecutable": "pnpm",
