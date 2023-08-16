@@ -2,8 +2,15 @@
   "name": "@toolkit/add",
   "description": "add package",
   "type": "module",
-  "main": "index.js",
+  "main": "es/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tk-swc ./src -d es --config-file .swcrc"
+  },
   "dependencies": {
     "@toolkit/sum": "workspace:*"
+  },
+  "devDependencies": {
+    "@toolkit/cli": "workspace:*"
   }
 }

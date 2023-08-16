@@ -1,4 +1,10 @@
 {
   "name": "toolkit",
-  "description": "write your own library"
+  "description": "write your own library",
+  "scripts": {
+    "postinstall": "pnpm -r build"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
 }
