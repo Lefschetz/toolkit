@@ -2,12 +2,13 @@
   "jestrunner.codeLens": ["run", "watch", "debug", "coverage"],
   "jestrunner.changeDirectoryToWorkspaceRoot": true,
   "jestrunner.jestCommand": "pnpm test --",
-  "jestrunner.runOptions": ["--silent"],
+  "jestrunner.runOptions": ["--logHeapUsage"],
   "jestrunner.debugOptions": {
     "program": "",
     "runtimeExecutable": "pnpm",
     "runtimeArgs": ["run-script", "test"],
     "smartStep": true,
     "skipFiles": ["<node_internals>/**/*.js"]
-  }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
